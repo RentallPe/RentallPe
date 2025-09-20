@@ -66,14 +66,15 @@ export const translate = {
       '"We live in one house and rent out two others. With the Premium Plan,I can monitor all three properties from one dashboard. The extrasensors and cameras help me detect issues before they becomeexpensive, and the smart locks make tenant changes seamless.It’s peace of mind for my family and our investments."',
     "enterprises-title": "For Enterprises",
     "enterprises-get-started": "Get started",
-    "enterprise-benefits": "",     
-    "benefits-title": "Key Benefits for Your Business",
-    "enterprise-pitch": "",         
-    "pitch-title":
-      "Transform your commercial spaces with<br>technology-driven renovations",
-    "pitch-text":
+    "enterprise-benefits-title": "Key Benefits for Your Business",
+    "enterprise-benefits-text": 
+      "Transform your projects with a solution designed for efficiency and growth. Our platform helps you optimize costs, minimize unexpected expenses, and accelerate timelines, while boosting your property's value through smart IoT integration. Enjoy full transparency with real-time tracking from design to execution, ensuring you’re always in the loop. Stay secure with instant alerts for unusual activity or equipment failures, and make your operations more sustainable by cutting energy waste. With expert support and data-driven insights at every step, you’ll have peace of mind knowing you’re making the best decisions for your business.",  
+    "enterprise-pitch-title":
+      "Transform your commercial spaces with technology-driven renovations",
+    "enterprise-pitch-text":
       "RentallPe empowers companies to remodel and monitor their spaces with efficiency, transparency, and smart automation.",
-    "deliverables-title": "What You Get",
+    "enterprise-deliverables-title": "What You Get",
+    "enterprise-deliverables-text": "Our deliverables include a step-by-step renovation plan with digital checklists, access to contractors and IoT-ready solutions, a unified dashboard to track progress, costs, and energy use, real-time monitoring of security, occupancy, and environmental conditions, automatic reports on efficiency, savings, and sustainability metrics, and full technical support and guidance for permits, installation, and setup.",
     "footer-brand": "RentallPe",
     "footer-description":
       "At RentallPe our primary mission is to remodel and modernize real-estate spaces, turning them into smart, efficient and valuable assets.",
@@ -161,12 +162,13 @@ export const translate = {
       "«Vivimos en una casa y alquilamos otras dos. Con el Plan Premium puedo monitorear las tres propiedades desde un solo panel. Los sensores y cámaras adicionales me ayudan a detectar problemas antes de que se vuelvan costosos, y las cerraduras inteligentes facilitan el cambio de inquilinos. Es tranquilidad para mi familia y nuestras inversiones.»",
     "enterprises-title": "Para Empresas",
     "enterprises-get-started": "Empezar",
-    "benefits-title": "Beneficios clave para tu negocio",
-    "pitch-title":
-      "Transforma tus espacios comerciales<br>con remodelaciones tecnológicas",
-    "pitch-text":
+    "enterprise-benefits-title": "Beneficios clave para tu negocio",
+    "enterprise-benefits-text": "Transforma tus proyectos con una solución diseñada para la eficiencia y el crecimiento. Nuestra plataforma te ayuda a optimizar costos, minimizar gastos inesperados y acelerar los plazos, mientras aumenta el valor de tu propiedad mediante una integración inteligente de IoT. Disfruta de total transparencia con el seguimiento en tiempo real, desde el diseño hasta la ejecución, asegurándote de estar siempre al tanto. Mantén la seguridad con alertas instantáneas ante actividad inusual o fallos en los equipos, y haz tus operaciones más sostenibles reduciendo el desperdicio de energía. Con soporte experto y análisis basados en datos en cada paso, tendrás la tranquilidad de saber que estás tomando las mejores decisiones para tu negocio.",
+    "enterprise-pitch-title": "Transforma tus espacios comerciales con remodelaciones tecnológicas",
+    "enterprise-pitch-text":
       "RentallPe ayuda a las empresas a remodelar y monitorear sus espacios con eficiencia, transparencia y automatización inteligente.",
-    "deliverables-title": "Qué obtienes",
+    "enterprise-deliverables-title": "Qué obtienes",
+    "enterprise-deliverables-text": "Nuestros entregables incluyen un plan de remodelación paso a paso con listas de verificación digitales, acceso a contratistas y soluciones compatibles con IoT, un panel unificado para rastrear el progreso, los costos y el uso de energía, monitoreo en tiempo real de la seguridad, la ocupación y las condiciones ambientales, informes automáticos sobre eficiencia, ahorros y métricas de sostenibilidad, y soporte técnico completo y orientación para permisos, instalación y configuración.",
     "footer-brand": "RentallPe",
     "footer-description":
       "En RentallPe nuestra misión es remodelar y modernizar espacios inmobiliarios, convirtiéndolos en activos inteligentes, eficientes y valiosos.",
