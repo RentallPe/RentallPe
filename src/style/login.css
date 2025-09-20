@@ -84,7 +84,7 @@ body {
   background: var(--clr-primary-dark);
 }
 
-/* ===== Links ===== */
+
 .login-links {
   margin-top: 1.5rem;
   font-size: 0.9rem;
@@ -100,3 +100,4 @@ body {
 .login-links a:hover {
   color: var(--clr-primary);
 }
+

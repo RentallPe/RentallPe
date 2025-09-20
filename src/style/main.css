@@ -11,6 +11,10 @@
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
   --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.09);
   font-family: "Open Sans", system-ui, sans-serif;
+  --sq : 34px; 
+  --aw : 22px;  
+  --fs : 17px;  
+  --bd : 1.5px; 
 }
 
 *,
@@ -476,7 +480,7 @@ header {
 
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* simple mobile navigation collapse */
+    display: none; 
   }
 
   .navbar {

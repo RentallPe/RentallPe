@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +31,11 @@
             <a href="./html/register.html" class="btn-signup" id="nav-signup">Sign Up</a>
         </div>
 
+        <div class="lang-menu" id="langMenu">
+        
+        
+      
+      
         <div class="swicth">
             <span class="en">English</span>
             <span class="es" style="color: #1b3a5c;">Spanish</span>
@@ -48,7 +53,7 @@
         </div>
         <div class="header-buttons">
             <a href="#" class="header-free" id="free">Start Free Trial</a>
-            <a href="#" class="header-plan" id="flan">Select a Plan</a>
+            <a href="#" class="header-plan" id="plan">Select a Plan</a>
         </div>
 
         <img src="../public/img/hero.png" class="hero" alt="Wave Image" id="hero-image">
@@ -84,12 +89,12 @@
             <article class="pricing-card">
                 <header class="pricing-header">
                   <h3 id="started">Started</h3>
-                  <p class="pricing-card__subtitle">For small houses</p>
+                  <p class="pricing-card__subtitle" id="house-started">For small houses</p>
                   
                 </header>
                  <p class="pricing-card__price">
                    <span class="pricing-card__currency">$</span> 25
-                   <span class="pricing-card__period">/ month</span>
+                   <span class="pricing-card__period" id="month">/ month</span>
                  </p>
 
                 <ul class="started-card__features">
@@ -107,12 +112,12 @@
             <article class="pricing-card">
                 <header class="pricing-header">
                   <h3 id="pro">Pro</h3>
-                  <p class="pricing-card__subtitle">For big houses</p>                 
+                  <p class="pricing-card__subtitle" id="house-pro">For big houses</p>                 
                 </header>
 
                  <p class="pricing-card__price">
                    <span class="pricing-card__currency">$</span> 50
-                   <span class="pricing-card__period">/ month</span>
+                   <span class="pricing-card__period" id="month">/ month</span>
                  </p>
 
                 <ul class="pro-card__features">
@@ -128,12 +133,12 @@
 
                  <header class="pricing-header">
                   <h3 id="premium">Premium</h3>
-                  <p class="pricing-card__subtitle">Up to 3 big houses</p>                 
+                  <p class="pricing-card__subtitle" id="house-premiun">Up to 3 big houses</p>                 
                 </header>
 
                  <p class="pricing-card__price">
                    <span class="pricing-card__currency">$</span> 100
-                   <span class="pricing-card__period">/ month</span>
+                   <span class="pricing-card__period" id="month">/ month</span>
                  </p>
 
                 <ul class="premium-card__features">
@@ -284,8 +289,8 @@
   </div>
 </footer>        
                 
-
-                   
+ <script type="module" src="./scripts/translate.js"></script>
+               
 
 
 </body>
