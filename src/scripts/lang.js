@@ -2,6 +2,7 @@
 
 export const translate = {
   EN: {
+  //!  /**main*/
     "nav-home": "Home",
     "nav-benefits": "Benefits",
     "nav-pricing": "Pricing",
@@ -76,10 +77,22 @@ export const translate = {
     "footer-contact-title": "Contact",
     "footer-email": "Email: support@rentallpe.com",
     "footer-address": "Offices: 456 Main Street, Lima, Peru",
-    "footer-phone": "Phone: +51 913 123 123"
+    "footer-phone": "Phone: +51 913 123 123",
+    //!  /**login*/
+    "login": "Login",
+    "register": "Register",
+    "password?": "forgot your password?",
+    //!  /**register*/
+    "register": "Register",
+    "log-in": "Log In",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "repit-password": "Repit Password"
   },
 
   ES: {
+    //!  /**main*/
     "nav-home": "Inicio",
     "nav-benefits": "Beneficios",
     "nav-pricing": "Precios",
@@ -153,6 +166,17 @@ export const translate = {
     "footer-contact-title": "Contacto",
     "footer-email": "Correo: support@rentallpe.com",
     "footer-address": "Oficinas: Calle Principal 456, Lima, Perú",
-    "footer-phone": "Teléfono: +51 913 123 123"
+    "footer-phone": "Teléfono: +51 913 123 123",
+    //!  /**login*/
+    "login": "Iniciar sesión",
+    "register": "Regístrate",
+    "password?": "¿Olvidaste tu contraseña?",
+    //!  /**register*/
+    "register": "Regístrate",
+    "log-in": "Iniciar sesión",
+    "name": "Nombre",
+    "email": "Correo",
+    "password": "Contraseña",
+    "repit-password": "Repetir Contraseña"
   }
 };

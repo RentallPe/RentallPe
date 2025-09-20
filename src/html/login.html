@@ -8,6 +8,11 @@
   <title>Login</title>
 </head>
 <body>
+        <div class="swicth">
+            <span class="en">English</span>
+            <span class="es" style="color: #1b3a5c;">Spanish</span>
+            <input type="checkbox" class="check"> 
+        </div>
    <main class="login-wrapper">
     <form class="login-box" autocomplete="off">
       <figure class="logo-box">
@@ -19,13 +24,14 @@
       <input type="email" placeholder="email" class="login-input" required />
       <input type="password" placeholder="password" class="login-input" required />
 
-      <button type="submit" class="login-btn">Login</button>
+      <button type="submit" class="login-btn" id="login">Login</button>
 
       <p class="login-links">
-        <a href="./register.html">Register</a> |
-        <a href="#">forgot your password?</a>
+        <a href="./register.html" id="register">Register</a> |
+        <a href="#" id="password?">forgot your password?</a>
       </p>
     </form>
   </main>
+   <script type="module" src="../scripts/translate.js"></script>
 </body>
 </html>

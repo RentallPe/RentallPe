@@ -35,6 +35,8 @@ function uploadLang() {
 }
 
 
+
+
 window.addEventListener("DOMContentLoaded", uploadLang);
 langSwitch.addEventListener("change", uploadLang);
 

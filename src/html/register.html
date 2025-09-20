@@ -7,6 +7,11 @@
   <title>Register</title>
 </head>
 <body>
+          <div class="swicth">
+            <span class="en">English</span>
+            <span class="es" style="color: #1b3a5c;">Spanish</span>
+            <input type="checkbox" class="check"> 
+        </div>
    <main class="auth-wrapper">
     <form class="auth-box" autocomplete="off">
       <figure class="logo-box">
@@ -15,18 +20,19 @@
 
       <h1 class="brand">RENTALLPE</h1>
 
-      <input type="text"     placeholder="Name"               class="auth-input" required />
-      <input type="email"    placeholder="Email"   class="auth-input" required />
-      <input type="password" placeholder="Password"           class="auth-input" required />
-      <input type="password" placeholder="Repit Password"   class="auth-input" required />
+      <input id="name" type="text"     placeholder="Name"               class="auth-input" required />
+      <input id="email" type="email"    placeholder="Email"   class="auth-input" required />
+      <input id="password" type="password" placeholder="Password"           class="auth-input" required />
+      <input id="repit-password" type="password" placeholder="Repit Password"   class="auth-input" required />
 
-      <button type="submit" class="auth-btn">Register</button>
+      <button type="submit" class="auth-btn" id="register">Register</button>
 
       <p class="auth-links">
-        <a href="./login.html">Log In</a> |
-        <a href="#">forgot your password?</a>
+        <a href="./login.html" id="log-in">Log In</a> |
+        <a href="#"id="password?">forgot your password?</a>
       </p>
     </form>
   </main>
+  <script type="module" src="../scripts/translate.js"></script>
 </body>
 </html>
