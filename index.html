@@ -11,285 +11,245 @@
 </head>
 <body>
   <nav class="navbar">
-        <a href="main.html"><img src="./public/img/logo.png" class="logo" alt="Logo"></a>
-        <ul class="nav-links">
-            <li class="active"><a href="main.html" id="nav-home">Home</a></li>
-            <li><a href="#benefits" id="nav-benefits">Benefits</a></li>
-            <li><a href="#pricing" id="nav-pricing">Pricing</a></li>
-            <li><a href="#testimonies" id="nav-testimonies">Testimonies</a></li>
-            <li><a href="#for-enterprice" id="nav-for-enterprice">For enterprice</a></li>
-            <li><a href="#contact" id="nav-contact">Contact</a></li>
-            
-            <!---                  
-            <li><a href="#how-it-works"><span class="es" style="display:none;">¿Cómo funciona?</span><span class="en" style="color: whitesmoke;">How it works?</span></a></li>-->
-           
-        </ul>
-       
-         
-        <div class="auth-buttons">
-            <a href="./src/html/login.html" class="btn-login" id="nav-login">Login</a>
-            <a href="./src/html/register.html" class="btn-signup" id="nav-signup">Sign Up</a>
-        </div>
-
-        <div class="lang-menu" id="langMenu">
-        
-        
-      
-      
+    <a href="main.html"><img src="./public/img/logo.png" class="logo" alt="Logo"></a>
+      <ul class="nav-links">
+          <li class="active"><a href="main.html" id="nav-home">Home</a></li>
+          <li><a href="#benefits" id="nav-benefits">Benefits</a></li>
+          <li><a href="#pricing" id="nav-pricing">Pricing</a></li>
+          <li><a href="#testimonies" id="nav-testimonies">Testimonies</a></li>
+          <li><a href="#for-enterprice" id="nav-for-enterprice">For enterprice</a></li>
+          <li><a href="#contact" id="nav-contact">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+          <a href="./src/html/login.html" class="btn-login" id="nav-login">Login</a>
+          <a href="./src/html/register.html" class="btn-signup" id="nav-signup">Sign Up</a>
+      </div>
+      <div class="lang-menu" id="langMenu">
         <div class="swicth">
             <span class="en">English</span>
             <span class="es" style="color: #1b3a5c;">Spanish</span>
             <input type="checkbox" class="check"> 
         </div>
-
-    </nav>
-    <section class="hero">
-      <header>
-          <div>
-              <h1 id="RentalPE-title">Give your property a second chance with our platform!</h1>
-              <div class="line"></div>
-              <h2 id="RentalPE-description">Get a personalized experience, manage your utilities, track the progress and increase your property value.</h2>
-              
-          </div>
-          <div class="header-buttons">
-              <a href="#" class="header-free" id="free">Start Free Trial</a>
-              <a href="#" class="header-plan" id="flan">Select a Plan</a>
-          </div>
-          <img src="../public/img/hero.png" alt="Wave Image" id="hero-image">
-      </header>
-    </section>
-
-     
-    <section class="benefits" id="benefits">
-        <h2 id="benefits-title">Benefits</h2>
-        <div class="benefit-cards">
-            <div class="card benefit-card">
-                <img src="../public/img/eye.png" alt="eye">
-                <h3 id="smart">Smart Monitoring of Energy, Security, and Use</h3>
-                <p id="smart-description">Our IoT powered remodeling goes beyond aesthetics, it equips properties with connected systems that track energy efficiency, security, and occupancy in real time. Whether you live in your property or rent it out, you’ll have a complete view of its performance from a single dashboard. This helps you stay in control and ensures your investment keeps working for you.</p>
-            </div>
-            <div class="card benefit-card">
-                <img src="../public/img/estadistic.png" alt="estadistic Icon">
-                <h3 id="increase">Increase the Value of Your Property</h3>
-                <p id="increase-description">Turn every renovation into a profitable investment. By integrating smart devices such as sensors, cameras, and automated climate systems future tenants and buyers will be more attracted to spaces that are modern, secure, and energy efficient. With RentallPe, you not only improve the look of your property, you also boost its profitability and market appeal.</p>
-            </div>
-            <div class="card benefit-card">
-                <img src="../public/img/engine.png" alt="engine Icon">
-                <h3 id="simple">Simple and Centralized Management</h3>
-                <p id="simple-description">Forget the chaos of handling remodels manually. With RentallPe, all your projects, payments, contracts, and reports are unified in one digital platform. Compare budgets, sign contracts electronically, and track progress in real time without paperwork or endless calls. Every document, every update, and every milestone is stored securely, giving you full visibility and control. This means less stress, fewer delays, and smarter decisionmaking at every stage of your project.</p>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="pricing" id="pricing">
-        <h2 id="pricing-title">Our Prices</h2>
-        <div class="pricing-cards">
-           <!-- Starter Plan -->
-            <article class="card pricing-card">
-                <header>
-                  <h3 id="starter">Starter</h3>
-                  <p id="house-starter">For small houses</p>
-                  
-                </header>
-                 <p>
-                    <span>$</span> 25<span  id="month">/ month</span>
-                 </p>
-                <ul>
-                  <li id="starter-feature1">Home Monitoring</li>
-                  <li id="starter-feature2">Energy Management</li>
-                  <li id="starter-feature3">2 Smart Door Locks</li>
-                  <li id="starter-feature4">2 WiFi Cameras</li>
-                  <li id="starter-feature5">4 Occupancy Sensors</li>
-                </ul>
-
-                <a href="#" class="select-plan" id="select-starter">Get started</a>
-
-            </article>
-           <!-- profecional Plan -->
-            <article class="card pricing-card">
-                <header>
-                  <h3 id="pro">Pro</h3>
-                  <p id="house-pro">For big houses</p>                 
-                </header>
-
-                 <p>
-                   <span>$</span> 50
-                   <span  id="month">/ month</span>
-                 </p>
-
-                <ul>
-                  <li id="pro-feature1">Everything in Starter, plus:</li>
-                  <li id="pro-feature2">4 Extra WiFi Cameras</li>
-                  <li id="pro-feature3">6 Extra Occupancy Sensors</li>
-                  <li id="pro-feature4">1 Garage Door Sensor</li>
-                  <li id="pro-feature5">Smart Lighting System</li>
-                  <li id="pro-feature6">Automated Curtains</li>
-                </ul>
-                <a href="#" class="select-plan" id="select-pro">Get started</a>
-             <!-- premium Plan -->
-            </article>
-            <article class="card pricing-card">
-
-                 <header>
-                  <h3 id="premium">Premium</h3>
-                  <p id="house-premium">Up to 3 big houses</p>
-                </header>
-
-                 <p>
-                   <span>$</span> 100<span id="month">/ month</span>
-                 </p>
-
-                <ul>
-                    <li id="premium-feature1">Everything in Profesional per house, plus:</li>
-                    <li id="premium-feature2">Smart Irrigation Systems</li>
-                    <li id="premium-feature3">Smart Thermostats</li>
-                </ul>
-                <a href="#" class="select-plan" id="select-premium">Get started</a>
-            </article>
-        </article>
-
-    </section>
-
-
-<section class="testimonies" id="testimonies">
-  <h2 id="testimonies-title">What Our Users Say</h2>
-
-  <div class="testimony-cards">
-    
-    
-    <article class="testimony-card">
-      <header class="testimony-card__header">
-        <figure class="testimony-card__avatar">
-          <img src="./public/img/test1.png" alt="Portrait of Laura G." />
-        </figure>
+      </div>
+  </nav>
+  <!--Hero Section-->
+  <section class="hero">
+    <header>
         <div>
-          <h3 id="user1-name" class="testimony-card__name">Laura G.</h3>
-          <span id="user1-plan" class="testimony-card__plan">Starter Plan</span>
+          <h1 id="RentalPE-title">Give your property a second chance with our platform!</h1>
+          <div class="line"></div>
+          <h2 id="RentalPE-description">Get a personalized experience, manage your utilities, track the progress and increase your property value.</h2>
         </div>
-      </header>
-
-      <blockquote id="user1-feedback" class="testimony-card__quote">
-        "With the Starter Plan, I can finally monitor my apartment remotely.The smart locks and cameras make me feel secure, and I no longerworry about forgetting contract renewals or maintenance dates.For a small place like mine, it’s exactly what I needed."
-      </blockquote>
-    </article>
-
-   
-    <article class="testimony-card">
-      <header class="testimony-card__header">
-        <figure class="testimony-card__avatar">
-          <img src="./public/img/test2.png" alt="Portrait of Carlos R." />
-        </figure>
-        <div>
-          <h3 id="user2-name" class="testimony-card__name">Carlos R.</h3>
-          <span id="user2-plan" class="testimony-card__plan">Professional Plan</span>
+        <div class="header-buttons">
+          <a href="#" class="header-free" id="free">Start Free Trial</a>
+          <a href="#" class="header-plan" id="flan">Select a Plan</a>
         </div>
-      </header>
-
-      <blockquote id="user2-feedback" class="testimony-card__quote">
-        “I rent some unused rooms in my house and used to struggle withkeeping everything under control. The Professional Plan gave meoccupancy sensors and garage monitoring, so now I know when theservices are being used. It saves me time and gives me fullvisibility.”
-      </blockquote>
-    </article>
-
-   
-    <article class="testimony-card">
-      <header class="testimony-card__header">
-        <figure class="testimony-card__avatar">
-          <img src="./public/img/test3.png" alt="Portrait of Elena M." />
-        </figure>
-        <div>
-          <h3 id="user3-name" class="testimony-card__name">Elena M.</h3>
-          <span id="user3-plan" class="testimony-card__plan">Premium Plan</span>
-        </div>
-      </header>
-
-      <blockquote id="user3-feedback" class="testimony-card__quote">
-        "We live in one house and rent out two others. With the Premium Plan,I can monitor all three properties from one dashboard. The extrasensors and cameras help me detect issues before they becomeexpensive, and the smart locks make tenant changes seamless.It’s peace of mind for my family and our investments."
-      </blockquote>
-    </article>
-
-  </div>
-</section>
-
-<section class="enterprises" id="enterprises">
-  <h2 id="enterprises-title">For Enterprises</h2>
-
-  <div class="enterprises__cta">
-    <a href="#contact" class="enterprises-btn" id="enterprises-get-started">Get started</a>
-  </div>
-
-  <div class="enterprise-cards">
-
-    <article class="enterprise-card" id="enterprise-benefits">
-      <h3 id="benefits-title">Key Benefits for Your Business</h3>
-      <ul id="benefits-list">
-        <li>Cost Optimization – Minimize unexpected expenses and shorten project timelines.</li>
-        <li>Smart Property Value Growth – Increase resale or rental value by up to 15 % with IoT integration.</li>
-        <li>Full Transparency – Track every stage of the project, from design to execution, all in one place.</li>
-        <li>Enhanced Security – Receive alerts for unusual activity or equipment failures in real time.</li>
-        <li>Sustainable Operations – Reduce energy waste and showcase your commitment to eco-friendly practices.</li>
-        <li>Peace of Mind – Make data-driven decisions with clear insights and expert support at every step.</li>
-      </ul>
-    </article>
-
-    <article class="enterprise-card enterprise-card--center" id="enterprise-pitch">
-      <h3 id="pitch-title">Transform your commercial spaces with<br>technology-driven renovations</h3>
-      <p id="pitch-text">
-        RentallPe empowers companies to remodel and monitor their spaces with efficiency, transparency,
-        and smart automation. Whether you run restaurants, offices, or retail stores, our business plan
-        gives you the tools to reduce costs, improve security, and boost the long-term value of your property.
-      </p>
-    </article>
-
-    <article class="enterprise-card" id="enterprise-deliverables">
-      <h3 id="deliverables-title">What You Get</h3>
-      <ul id="deliverables-list">
-        <li>A step-by-step renovation plan with digital checklists</li>
-        <li>Access to certified contractors and IoT-ready solutions</li>
-        <li>A unified dashboard to track progress, costs, and energy use</li>
-        <li>Real-time monitoring of security, occupancy, and environmental conditions</li>
-        <li>Automatic reports on efficiency, savings, and sustainability metrics</li>
-        <li>Technical support and guidance with permits, installation, and setup</li>
-      </ul>
-    </article>
-
-  </div>
-</section>
-
-
-<footer class="footer" id="footer">
-  <div class="footer-cards">
-
-    <div class="footer-card footer-card--brand">
-      <h3 id="footer-brand">RentallPe</h3>
-      <hr>
-      <p id="footer-description">
-        At RentallPe our primary mission is to remodel and modernize real estate spaces, turning them into smart,
-        efficient and valuable assets. Once transformed, we provide our clients with powerful tools to monitor,
-        manage and optimize their properties with ease.
-      </p>
-      <div class="footer-social">
-        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <img src="./public/img/hero.png" alt="Wave Image" id="hero-image">
+    </header>
+  </section>
+  <!--Benefits-->
+  <section class="benefits" id="benefits">
+    <h2 id="benefits-title">Benefits</h2>
+    <div class="benefit-cards">
+      <div class="card benefit-card">
+          <img src="./public/img/eye.png" alt="eye">
+          <h3 id="smart">Smart Monitoring of Energy, Security, and Use</h3>
+          <p id="smart-description">Our IoT powered remodeling goes beyond aesthetics, it equips properties with connected systems that track energy efficiency, security, and occupancy in real time. Whether you live in your property or rent it out, you’ll have a complete view of its performance from a single dashboard. This helps you stay in control and ensures your investment keeps working for you.</p>
+      </div>
+      <div class="card benefit-card">
+        <img src="./public/img/estadistic.png" alt="estadistic Icon">
+        <h3 id="increase">Increase the Value of Your Property</h3>
+        <p id="increase-description">Turn every renovation into a profitable investment. By integrating smart devices such as sensors, cameras, and automated climate systems future tenants and buyers will be more attracted to spaces that are modern, secure, and energy efficient. With RentallPe, you not only improve the look of your property, you also boost its profitability and market appeal.</p>
+      </div>
+      <div class="card benefit-card">
+        <img src="./public/img/engine.png" alt="engine Icon">
+        <h3 id="simple">Simple and Centralized Management</h3>
+        <p id="simple-description">Forget the chaos of handling remodels manually. With RentallPe, all your projects, payments, contracts, and reports are unified in one digital platform. Compare budgets, sign contracts electronically, and track progress in real time without paperwork or endless calls. Every document, every update, and every milestone is stored securely, giving you full visibility and control. This means less stress, fewer delays, and smarter decisionmaking at every stage of your project.</p>
       </div>
     </div>
-
-    <a href="#contact" class="footer-cta-btn" id="footer-cta">Remodel your first Property</a>
-
-    <div class="footer-card footer-card--contact">
-      <h3 id="footer-contact-title">Contact</h3>
-      <hr>
-      <p id="footer-email">Email: support@rentallpe.com</p>
-      <p id="footer-address">Offices: 456 Main Street, Lima, Peru</p>
-      <p id="footer-phone">Phone: +51 913 123 123</p>
+  </section>
+  <!--Pricing-->
+  <section class="pricing" id="pricing">
+    <h2 id="pricing-title">Our Prices</h2>
+    <div class="pricing-cards">
+      <!-- Starter Plan -->
+      <article class="card pricing-card">
+        <header>
+          <h3 id="starter">Starter</h3>
+          <p id="house-starter">For small houses</p>      
+        </header>
+         <p>
+            <span>$</span> 25<span  id="month">/ month</span>
+         </p>
+        <ul>
+          <li id="starter-feature1">Home Monitoring</li>
+          <li id="starter-feature2">Energy Management</li>
+          <li id="starter-feature3">2 Smart Door Locks</li>
+          <li id="starter-feature4">2 WiFi Cameras</li>
+          <li id="starter-feature5">4 Occupancy Sensors</li>
+        </ul>
+          <a href="#" class="select-plan" id="select-starter">Get started</a>
+      </article>
+      <!--Professional Plan -->
+      <article class="card pricing-card">
+        <header>
+          <h3 id="pro">Pro</h3>
+          <p id="house-pro">For big houses</p>                 
+        </header>
+        <p>
+          <span>$</span> 50
+          <span  id="month">/ month</span>
+        </p>
+        <ul>
+          <li id="pro-feature1">Everything in Starter, plus:</li>
+          <li id="pro-feature2">4 Extra WiFi Cameras</li>
+          <li id="pro-feature3">6 Extra Occupancy Sensors</li>
+          <li id="pro-feature4">1 Garage Door Sensor</li>
+          <li id="pro-feature5">Smart Lighting System</li>
+          <li id="pro-feature6">Automated Curtains</li>
+        </ul>
+        <a href="#" class="select-plan" id="select-pro">Get started</a>
+      <!-- Premium Plan -->
+      </article>
+      <article class="card pricing-card">
+        <header>
+          <h3 id="premium">Premium</h3>
+          <p id="house-premium">Up to 3 big houses</p>
+        </header>
+        <p>
+          <span>$</span> 100<span id="month">/ month</span>
+        </p>
+        <ul>
+            <li id="premium-feature1">Everything in Profesional per house, plus:</li>
+            <li id="premium-feature2">Smart Irrigation Systems</li>
+            <li id="premium-feature3">Smart Thermostats</li>
+        </ul>
+        <a href="#" class="select-plan" id="select-premium">Get started</a>
+      </article>
     </div>
+  </section>
+  <section class="testimonies" id="testimonies">
+    <h2 id="testimonies-title">What Our Users Say</h2>
+    <div class="testimony-cards">
+      <article class="testimony-card">
+        <header class="testimony-card__header">
+          <figure class="testimony-card__avatar">
+            <img src="./public/img/test1.png" alt="Portrait of Laura G." />
+          </figure>
+          <div>
+            <h3 id="user1-name" class="testimony-card__name">Laura G.</h3>
+            <span id="user1-plan" class="testimony-card__plan">Starter Plan</span>
+          </div>
+        </header>
+        <blockquote id="user1-feedback" class="testimony-card__quote">
+          "With the Starter Plan, I can finally monitor my apartment remotely.The smart locks and cameras make me feel secure, and I no longerworry about forgetting contract renewals or maintenance dates.For a small place like mine, it’s exactly what I needed."
+        </blockquote>
+      </article>
+      <article class="testimony-card">
+        <header class="testimony-card__header">
+          <figure class="testimony-card__avatar">
+            <img src="./public/img/test2.png" alt="Portrait of Carlos R." />
+          </figure>
+          <div>
+            <h3 id="user2-name" class="testimony-card__name">Carlos R.</h3>
+            <span id="user2-plan" class="testimony-card__plan">Professional Plan</span>
+          </div>
+        </header>
+        <blockquote id="user2-feedback" class="testimony-card__quote">
+          “I rent some unused rooms in my house and used to struggle withkeeping everything under control. The Professional Plan gave meoccupancy sensors and garage monitoring, so now I know when theservices are being used. It saves me time and gives me fullvisibility.”
+        </blockquote>
+      </article>           
+      <article class="testimony-card">
+        <header class="testimony-card__header">
+          <figure class="testimony-card__avatar">
+            <img src="./public/img/test3.png" alt="Portrait of Elena M." />
+          </figure>
+          <div>
+            <h3 id="user3-name" class="testimony-card__name">Elena M.</h3>
+            <span id="user3-plan" class="testimony-card__plan">Premium Plan</span>
+          </div>
+        </header>
+        <blockquote id="user3-feedback" class="testimony-card__quote">
+          "We live in one house and rent out two others. With the Premium Plan, I can monitor all three properties from one dashboard. The extra sensors and cameras help me detect issues before they become expensive, and the smart locks make tenant changes seamless. It’s peace of mind for my family and our investments."
+        </blockquote>
+      </article>
+    </div>
+  </section>
+  <section class="enterprises" id="enterprises">
+    <h2 id="enterprises-title">For Enterprises</h2>
+  
+    <div class="enterprises__cta">
+      <a href="#contact" class="enterprises-btn" id="enterprises-get-started">Get started</a>
+    </div>
+  
+    <div class="enterprise-cards">
+    
+      <article class="enterprise-card" id="enterprise-benefits">
+        <h3 id="benefits-title">Key Benefits for Your Business</h3>
+        <ul id="benefits-list">
+          <li>Cost Optimization – Minimize unexpected expenses and shorten project timelines.</li>
+          <li>Smart Property Value Growth – Increase resale or rental value by up to 15 % with IoT integration.</li>
+          <li>Full Transparency – Track every stage of the project, from design to execution, all in one place.</li>
+          <li>Enhanced Security – Receive alerts for unusual activity or equipment failures in real time.</li>
+          <li>Sustainable Operations – Reduce energy waste and showcase your commitment to eco-friendly practices.</li>
+          <li>Peace of Mind – Make data-driven decisions with clear insights and expert support at every step.</li>
+        </ul>
+      </article>
+    
+      <article class="enterprise-card enterprise-card--center" id="enterprise-pitch">
+        <h3 id="pitch-title">Transform your commercial spaces with<br>technology-driven renovations</h3>
+        <p id="pitch-text">
+          RentallPe empowers companies to remodel and monitor their spaces with efficiency, transparency,
+          and smart automation. Whether you run restaurants, offices, or retail stores, our business plan
+          gives you the tools to reduce costs, improve security, and boost the long-term value of your property.
+        </p>
+      </article>
+    
+      <article class="enterprise-card" id="enterprise-deliverables">
+        <h3 id="deliverables-title">What You Get</h3>
+        <ul id="deliverables-list">
+          <li>A step-by-step renovation plan with digital checklists</li>
+          <li>Access to certified contractors and IoT-ready solutions</li>
+          <li>A unified dashboard to track progress, costs, and energy use</li>
+          <li>Real-time monitoring of security, occupancy, and environmental conditions</li>
+          <li>Automatic reports on efficiency, savings, and sustainability metrics</li>
+          <li>Technical support and guidance with permits, installation, and setup</li>
+        </ul>
+      </article>
+    
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="footer-cards">
 
-  </div>
-</footer>        
-                
- <script type="module" src="./src/scripts/translate.js"></script>
+      <div class="footer-card footer-card--brand">
+        <h3 id="footer-brand">RentallPe</h3>
+        <hr>
+        <p id="footer-description">
+          At RentallPe our primary mission is to remodel and modernize real estate spaces, turning them into smart,
+          efficient and valuable assets. Once transformed, we provide our clients with powerful tools to monitor,
+          manage and optimize their properties with ease.
+        </p>
+        <div class="footer-social">
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
 
+      <a href="#contact" class="footer-cta-btn" id="footer-cta">Remodel your first Property</a>
+
+      <div class="footer-card footer-card--contact">
+        <h3 id="footer-contact-title">Contact</h3>
+        <hr>
+        <p id="footer-email">Email: support@rentallpe.com</p>
+        <p id="footer-address">Offices: 456 Main Street, Lima, Peru</p>
+        <p id="footer-phone">Phone: +51 913 123 123</p>
+      </div>
+
+    </div>
+  </footer>        
+  <script type="module" src="./src/scripts/translate.js"></script>
 </body>
 </html>
