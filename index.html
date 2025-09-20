@@ -6,7 +6,7 @@
     <title>Landing Page - RentalPE</title>
     <meta name="author" content="RentalPE">
     <link rel="stylesheet" href="./src/style/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -43,37 +43,38 @@
         </div>
 
     </nav>
+    <section class="hero">
+      <header>
+          <div>
+              <h1 id="RentalPE-title">Give your property a second chance with our platform!</h1>
+              <div class="line"></div>
+              <h2 id="RentalPE-description">Get a personalized experience, manage your utilities, track the progress and increase your property value.</h2>
+              
+          </div>
+          <div class="header-buttons">
+              <a href="#" class="header-free" id="free">Start Free Trial</a>
+              <a href="#" class="header-plan" id="flan">Select a Plan</a>
+          </div>
+          <img src="../public/img/hero.png" alt="Wave Image" id="hero-image">
+      </header>
+    </section>
 
-     <header>
-        <div class="header-content">
-            <h1 id="RentalPE-title">Give your property a second chance with our platform!</h1>
-            <div class="line"></div>
-            <h2 id="RentalPE-description">Get a personalized experience, manage your utilities, track the progress and increase your property value.</h2>
-            
-        </div>
-        <div class="header-buttons">
-            <a href="#" class="header-free" id="free">Start Free Trial</a>
-            <a href="#" class="header-plan" id="plan">Select a Plan</a>
-        </div>
-
-        <img src="./public/img/hero.png" class="hero" alt="Wave Image" id="hero-image">
-    </header>
      
     <section class="benefits" id="benefits">
         <h2 id="benefits-title">Benefits</h2>
         <div class="benefit-cards">
-            <div class="benefit-card">
-                <img src="./public/img/eye.png" alt="eye">
+            <div class="card benefit-card">
+                <img src="../public/img/eye.png" alt="eye">
                 <h3 id="smart">Smart Monitoring of Energy, Security, and Use</h3>
                 <p id="smart-description">Our IoT powered remodeling goes beyond aesthetics, it equips properties with connected systems that track energy efficiency, security, and occupancy in real time. Whether you live in your property or rent it out, you’ll have a complete view of its performance from a single dashboard. This helps you stay in control and ensures your investment keeps working for you.</p>
             </div>
-            <div class="benefit-card">
-                <img src="./public/img/estadistic.png" alt="estadistic Icon">
+            <div class="card benefit-card">
+                <img src="../public/img/estadistic.png" alt="estadistic Icon">
                 <h3 id="increase">Increase the Value of Your Property</h3>
                 <p id="increase-description">Turn every renovation into a profitable investment. By integrating smart devices such as sensors, cameras, and automated climate systems future tenants and buyers will be more attracted to spaces that are modern, secure, and energy efficient. With RentallPe, you not only improve the look of your property, you also boost its profitability and market appeal.</p>
             </div>
-            <div class="benefit-card">
-                <img src="./public/img/engine.png" alt="engine Icon">
+            <div class="card benefit-card">
+                <img src="../public/img/engine.png" alt="engine Icon">
                 <h3 id="simple">Simple and Centralized Management</h3>
                 <p id="simple-description">Forget the chaos of handling remodels manually. With RentallPe, all your projects, payments, contracts, and reports are unified in one digital platform. Compare budgets, sign contracts electronically, and track progress in real time without paperwork or endless calls. Every document, every update, and every milestone is stored securely, giving you full visibility and control. This means less stress, fewer delays, and smarter decisionmaking at every stage of your project.</p>
             </div>
@@ -82,77 +83,76 @@
     </section>
 
     <section class="pricing" id="pricing">
-        <h2 id="pricing-title">Pricing</h2>
+        <h2 id="pricing-title">Our Prices</h2>
         <div class="pricing-cards">
-
-           <!-- Started Plan -->
-            <article class="pricing-card">
-                <header class="pricing-header">
-                  <h3 id="started">Started</h3>
-                  <p class="pricing-card__subtitle" id="house-started">For small houses</p>
+           <!-- Starter Plan -->
+            <article class="card pricing-card">
+                <header>
+                  <h3 id="starter">Starter</h3>
+                  <p id="house-starter">For small houses</p>
                   
                 </header>
-                 <p class="pricing-card__price">
-                   <span class="pricing-card__currency">$</span> 25
-                   <span class="pricing-card__period" id="month">/ month</span>
+                 <p>
+                    <span>$</span> 25<span  id="month">/ month</span>
                  </p>
-
-                <ul class="started-card__features">
-                    <li id="started-feature1">Home Monitoring</li>
-                    <li id="started-feature2">Energy Monitoring</li>
-                    <li id="started-feature3">2 WiFi Cameras</li>
-                    <li id="started-feature4">4 Occupancy Sensors</li>
-                    <li id="started-feature5">5 Smart Locks</li>
+                <ul>
+                  <li id="starter-feature1">Home Monitoring</li>
+                  <li id="starter-feature2">Energy Management</li>
+                  <li id="starter-feature3">2 Smart Door Locks</li>
+                  <li id="starter-feature4">2 WiFi Cameras</li>
+                  <li id="starter-feature5">4 Occupancy Sensors</li>
                 </ul>
 
-                <a href="#" class="select-plan" id="select-started">Get started</a>
+                <a href="#" class="select-plan" id="select-starter">Get started</a>
 
             </article>
            <!-- profecional Plan -->
-            <article class="pricing-card">
-                <header class="pricing-header">
+            <article class="card pricing-card">
+                <header>
                   <h3 id="pro">Pro</h3>
-                  <p class="pricing-card__subtitle" id="house-pro">For big houses</p>                 
+                  <p id="house-pro">For big houses</p>                 
                 </header>
 
-                 <p class="pricing-card__price">
-                   <span class="pricing-card__currency">$</span> 50
-                   <span class="pricing-card__period" id="month">/ month</span>
+                 <p>
+                   <span>$</span> 50
+                   <span  id="month">/ month</span>
                  </p>
 
-                <ul class="pro-card__features">
-                    <li id="pro-feature1">Everything in Starter, plus:</li>
-                    <li id="pro-feature2">4 Extra WiFi cameras</li>
-                    <li id="pro-feature3">6 Extra Occupancy Sensors</li>
-                    <li id="pro-feature4">1 Garage Door Sensor</li>
-                    
+                <ul>
+                  <li id="pro-feature1">Everything in Starter, plus:</li>
+                  <li id="pro-feature2">4 Extra WiFi Cameras</li>
+                  <li id="pro-feature3">6 Extra Occupancy Sensors</li>
+                  <li id="pro-feature4">1 Garage Door Sensor</li>
+                  <li id="pro-feature5">Smart Lighting System</li>
+                  <li id="pro-feature6">Automated Curtains</li>
                 </ul>
                 <a href="#" class="select-plan" id="select-pro">Get started</a>
-             <!-- premiun Plan -->
-            <article class="pricing-card">
+             <!-- premium Plan -->
+            </article>
+            <article class="card pricing-card">
 
-                 <header class="pricing-header">
+                 <header>
                   <h3 id="premium">Premium</h3>
-                  <p class="pricing-card__subtitle" id="house-premiun">Up to 3 big houses</p>                 
+                  <p id="house-premium">Up to 3 big houses</p>
                 </header>
 
-                 <p class="pricing-card__price">
-                   <span class="pricing-card__currency">$</span> 100
-                   <span class="pricing-card__period" id="month">/ month</span>
+                 <p>
+                   <span>$</span> 100<span id="month">/ month</span>
                  </p>
 
-                <ul class="premium-card__features">
+                <ul>
                     <li id="premium-feature1">Everything in Profesional per house, plus:</li>
-                    
+                    <li id="premium-feature2">Smart Irrigation Systems</li>
+                    <li id="premium-feature3">Smart Thermostats</li>
                 </ul>
                 <a href="#" class="select-plan" id="select-premium">Get started</a>
             </article>
-        </div>
+        </article>
 
     </section>
 
 
-    <section class="testimonies" id="testimonies">
+<section class="testimonies" id="testimonies">
   <h2 id="testimonies-title">What Our Users Say</h2>
 
   <div class="testimony-cards">
