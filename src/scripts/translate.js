@@ -6,7 +6,7 @@ const langSwitch = document.querySelector(".check");
 
 function translatePage(){
  const lng = langSwitch.checked ? "ES" : "EN";
-    const elementos = document.querySelectorAll("h1, h2, h3, p, span, button, a, input[type='submit'], textarea,blockquote,li");
+    const elementos = document.querySelectorAll("h1, h2, h3, p, span, button, a, input[type='submit'], textarea,blockquote,li,input");
 
     elementos.forEach(el => {
         const id = el.id;
@@ -15,8 +15,9 @@ function translatePage(){
         const text = translate[lng][id];
 
         if (["INPUT", "TEXTAREA"].includes(el.tagName)) {
+           
             el.setAttribute("placeholder", text);
-            if (el.tagName === "INPUT") el.setAttribute("value", text);
+            //if (el.tagName === "INPUT") el.setAttribute("value", text);
         } else {
             el.innerText = text;
         }
